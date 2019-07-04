@@ -1,0 +1,4 @@
+google_images_download
+pandas
+object-detection
+opencv-python

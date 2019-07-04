@@ -1,0 +1,12 @@
+downloads
+*.record
+*.csv
+logs
+*.png
+*.PNG
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
+*.xml
+venv/
