@@ -1,6 +1,7 @@
-# ml-gather
+# gather-images
 
-This repo contains scripts to help gathering/labeling data for ML.
+This repo contains scripts to help gathering/labeling images for ML. Read
+the scripts to learn more about them
 
 ```
 pip install -r requirements.txt
@@ -34,7 +35,11 @@ If user selects yes, the file will be copied to OUTPUT_DIR
 
 ## delete_duplicates.sh
 
-Removes duplicated images
+Removes duplicated images based on md5 hash
+
+## resize.py
+
+Resize all images to a specific max width/height
 
 ## label.sh
 
@@ -47,6 +52,11 @@ labelImg keyboard shortcuts:
   * w add label
   * a prev image in folder
   * d next image in folder
+
+## split.py
+
+Split the images in 2 folders, one folder will contain the specified percent
+of images.
 
 ## xml_to_csv.py
 
